@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#input-container {
+    background: #6943FF;
+    color: whitesmoke;
+    height: 284px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 42px;
+}
+
+#title {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#unit-input {
+    background: #6943FF;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    width: 118px;
+    height: 84px;
+    font-size: 58px;
+    text-align: center;
+    border-radius: 6px;
+
+}
+
+#convert-btn {
+    background: whitesmoke;
+    border: none;
+    width: 118px;
+    height: 42px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#conversions {
+    background: #1F2937;
+    height: 420px;
+    padding: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 22px;
+    /* text-align: center; */
+}
+
+#conversions-container {
+    background: #273549;
+    width: 500px;
+    height: 108px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 12px;
+}
+
+#conversions-container h4 {
+    color: #CCC1FF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#conversions-container p {
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: 400;
+}

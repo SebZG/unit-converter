@@ -5,29 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unit Converter</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <section id="input-container">
-        <h1>Metric/Imperial Unit Conversion</h1>
+        <h1 id="title">Metric/Imperial Unit Conversion</h1>
         <input type="number" name="unit" id="unit-input">
         <button id="convert-btn">Convert</button>
     </section>
 
     <section id="conversions">
-        <div class="conversions-container">
+        <div id="conversions-container">
             <h4>Length (Meter/Feet)</h4>
             <p></p>
         </div>
-        <div class="conversions-container">
+        <div id="conversions-container">
             <h4>Volume (Liters/Gallons)</h4>
             <p></p>
         </div>
-        <div class="conversions-container">
+        <div id="conversions-container">
             <h4>Mass (Kilograms/Pounds)</h4>
             <p></p>
         </div>
     </section>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
