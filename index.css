@@ -17,7 +17,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 42px;
+    row-gap: 38px;
 }
 
 #title {
@@ -56,10 +56,9 @@ body {
     justify-content: center;
     align-items: center;
     row-gap: 22px;
-    /* text-align: center; */
 }
 
-#conversions-container {
+.conversions-container {
     background: #273549;
     width: 500px;
     height: 108px;
@@ -70,13 +69,13 @@ body {
     row-gap: 12px;
 }
 
-#conversions-container h4 {
+.conversions-container h4 {
     color: #CCC1FF;
     font-size: 20px;
     font-weight: 600;
 }
 
-#conversions-container p {
+.conversions-container p {
     color: whitesmoke;
     font-size: 14px;
     font-weight: 400;
